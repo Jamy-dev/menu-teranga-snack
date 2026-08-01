@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teranga Snack — Le Menu</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,900;1,9..144,600;1,9..144,900&family=IBM+Plex+Mono:wght@500;600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="top">
+        <div class="top-inner">
+            <div class="brand">
+                <div class="brand-badge">TS</div>
+
+                <div>
+                    <div class="brand-name">Teranga Snack</div>
+                    <div class="brand-tag">Menu digital</div>
+                </div>
+            </div>
+
+            <div class="table-chip" id="tableChip">
+                TABLE 04
+            </div>
+        </div>
+    </header>
+
+    <main class="wrap">
+
+        <section class="hero">
+            <div class="eyebrow">
+                Scanné · Servi frais
+            </div>
+
+            <h1>Le Menu</h1>
+
+            <p>
+                Parcourez, choisissez vos plats, puis confirmez votre commande sur WhatsApp.
+            </p>
+
+            <div class="hero-medal">🍽️</div>
+        </section>
+
+        <nav class="filters">
+
+            <div class="filters-scroll" id="filterBar">
+
+                <button type="button" class="pill active" data-filter="tous">
+                    Tout voir
+                </button>
+
+                <button type="button" class="pill" data-filter="burgers">
+                    🍔 Burgers
+                </button>
+
+                <button type="button" class="pill" data-filter="pizzas">
+                    🍕 Pizzas
+                </button>
+
+                <button type="button" class="pill" data-filter="boissons">
+                    🥤 Boissons
+                </button>
+
+            </div>
+
+        </nav>
+
+        <section class="menu-section" id="menuSection">
+            <!-- Les cartes seront créées automatiquement par script.js -->
+        </section>
+
+    </main>
+
+    <div class="order-bar">
+
+        <div class="order-inner">
+
+            <div class="order-summary" id="orderSummary">
+                0 article<br>
+                <strong>0 F CFA</strong>
+            </div>
+
+            <a
+                id="waBtn"
+                class="wa-btn"
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Commander via WhatsApp">
+
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M17.5 14.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-2-1.8-2.3-.2-.3 0-.5.1-.6.1-.1.3-.4.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5 0-.2-.7-1.7-1-2.3-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4S6 7.6 6 8.9c0 1.3.9 2.6 1.1 2.8.1.2 1.8 2.8 4.4 3.9.6.3 1.1.4 1.5.5.6.2 1.2.2 1.6.1.5-.1 1.7-.7 1.9-1.3.2-.7.2-1.2.2-1.3 0-.1-.2-.2-.5-.3z"></path>
+
+                    <path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.6 1.4 5.2L2 22l4.9-1.3C8.5 21.5 10.2 22 12 22c5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.6 0-3.2-.4-4.5-1.2l-.3-.2-3.3.9.9-3.2-.2-.3C3.7 14.7 3.2 13 3.2 12 3.2 7.2 7.2 3.2 12 3.2S20.8 7.2 20.8 12 16.8 20.2 12 20.2z"></path>
+                </svg>
+
+                Commander via WhatsApp
+
+            </a>
+
+        </div>
+
+    </div>
+
+    <footer class="note">
+        Teranga Snack · Dakar — Menu généré via QR code
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
